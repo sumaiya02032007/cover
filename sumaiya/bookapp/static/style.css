@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+.page{
+    width: 500px;
+    height: 700px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 20px solid pink (4, 118, 232, 0.626);
+    padding:20px;
+    box-sizing:border-box;
+    background-clip: padding-box;
+    position: relative;
+       
+}
+
+.insights{
+   color: #5b86a6;
+    font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.hr{
+    color: orange (66, 100, 249);
+    width: 120px;
+    right: 200%;
+    
+
+}
+.title{
+    color: #3b2099;
+    font-size: 45px;
+     margin: 13px 0 15px 0;
+    
+   font-weight: bold;
+    text-align: center;
+    
+}
+.subtitle{
+    color: #392b99;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.edit{
+    color: #24b8fc;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+.name{
+    color: #360a0a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+   
+}
+.bottom{
+    color: #050e16;
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    font-weight: bold;
+}
+.pic{
+    position: absolute;
+    bottom:90px;
+    left: 75%;
+    width: 100px;
+    height:100px;
+    background: url(mypic.jpg) no-repeat;
+    background-size: 80px;
+
+}
